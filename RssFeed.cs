@@ -51,10 +51,10 @@ public class RssFeed
         sb.AppendLine("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
         sb.AppendLine("<rss version=\"2.0\">");
         sb.AppendLine("<channel>");
-        sb.AppendLine("<title>Shane Gray</title>");
+        sb.AppendLine("<title>b0dhi</title>");
         sb.AppendLine($"<link>{baseUrl}</link>");
         //Need to think of a better description
-        sb.AppendLine("<description>Thoughts from Shane Gray — developer, writer, perpetual learner.</description>");
+        sb.AppendLine("<description>Thoughts from b0dhi— developer, gamer, perpetual learner.</description>");
         sb.AppendLine("<language>en-us</language>");
 
         foreach (var post in posts)
