@@ -53,6 +53,7 @@ public class RssFeed
         sb.AppendLine("<channel>");
         sb.AppendLine("<title>Shane Gray</title>");
         sb.AppendLine($"<link>{baseUrl}</link>");
+        //Need to think of a better description
         sb.AppendLine("<description>Thoughts from Shane Gray — developer, writer, perpetual learner.</description>");
         sb.AppendLine("<language>en-us</language>");
 
